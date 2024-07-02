@@ -189,7 +189,7 @@ ext_modules = [make_extension(comp) for comp in compute_capabilities]
 setup(
 	name="tinycudann",
 	version=VERSION,
-	description="tiny-cuda-nn extension for PyTorch",
+	description="tiny-cuda-nn extension for PyTorch (default fp32 version)",
 	long_description="tiny-cuda-nn extension for PyTorch",
 	classifiers=[
 		"Development Status :: 4 - Beta",
